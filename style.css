@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Montserrat, Poppins, sans-serif;
-    width: 390px;
+    /*width: 390px;*/
 }
 body{
     display: flex;
@@ -40,12 +40,11 @@ header{
     align-items: center;
 }
 .logo{
-    margin-left: 10px;
+    display: flex;
+    margin-left: 16px;
     margin-right: 60px;
-    border: solid red;
     width: 32px;
     height: 32px;
-    background: #ffffff;
 }
 .nav{
     display: flex;
@@ -75,10 +74,70 @@ header{
     width: auto;
     display: flex;
     flex-direction: row;
-    background: #000000;
     height: 343px;
+    background: #000000 url("photo.png");
 }
-
 .title-preview{
-    
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 370px;
+    height: 129px;
+    display: flex;
+    flex-direction: column;
+}
+.title-preview-main{
+    font-family: Poppins, sans-serif;
+    font-size: 32px;
+    font-weight: 10;
+    line-height: 35px;
+    text-align: left;
+    color: #ffffff;
+}
+.title-preview-additional{
+    padding-top: 5px;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 10;
+    line-height: 19px;
+    text-align: left;
+    color: #ffffff;
+}
+.title-price{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+    width: 113px;
+    height: 52px;
+    border-radius: 30px;
+    background: linear-gradient(181.2deg, rgba(11, 11, 11, 0.42) 1.01%, rgba(11, 11, 11, 0.98) 98.98%),
+    linear-gradient(29.22deg, rgba(255, 255, 255, 0.05) 5.35%, rgba(255, 255, 255, 0.17) 91.84%);
+}
+.features{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 160px;
+    background: linear-gradient(0deg, #0B0B0B, #0B0B0B),
+    linear-gradient(4.46deg, rgba(255, 255, 255, 0.1) 4.17%, rgba(11, 11, 11, 0.1) 81.12%);
+    border-radius: 0 0 30px 30px;
+}
+.boxes{
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 120px;
+    height: 118px;
+    padding: 10px 4px 10px 4px;
+    border-radius: 30px;
+    justify-content: space-between;
+    background: linear-gradient(180.19deg, rgba(255, 255, 255, 0.1) 0.16%, rgba(255, 255, 255, 0) 88.86%),
+    linear-gradient(29.22deg, rgba(255, 255, 255, 0.35) 5.35%, rgba(255, 255, 255, 0) 91.84%);
+    border: 1px solid;
+    border-image-source: linear-gradient(29.22deg, rgba(255, 255, 255, 0.35) 5.35%, rgba(255, 255, 255, 0) 91.84%);
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
 }
