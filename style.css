@@ -75,7 +75,7 @@ header{
     display: flex;
     flex-direction: row;
     height: 343px;
-    background: #000000 url("photo.png");
+    background: #0B0B0B url("photo.png");
 }
 .title-preview{
     margin-top: 20px;
@@ -133,7 +133,7 @@ header{
     padding: 10px 4px 10px 4px;
     border-radius: 30px;
     justify-content: space-between;
-    background: linear-gradient(180.19deg, rgba(255, 255, 255, 0.26) 0.16%, rgba(255, 255, 255, 0.03) 88.86%),
+    background: linear-gradient(180.19deg, rgba(255, 255, 255, 0.01) 0.16%, rgba(255, 255, 255, 0.03) 88.86%),
     linear-gradient(30deg, rgba(255, 255, 255, 0.03) 5.35%, rgba(255, 255, 255, 0.16) 91.84%);
     border: 1px solid;
     border-image-source: linear-gradient(30deg, rgba(255, 255, 255, 0) 5.35%, rgba(255, 255, 255, 0) 91.84%);
@@ -162,5 +162,117 @@ header{
     margin-top: 24px;
 }
 .text-preview-main-one{
-    
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+}
+.text-preview-main-two{
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+}
+.slider-section{
+    margin-top: 24px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+.slider-section-secondary{
+    gap: 10px;
+    margin-left: 10px;
+    width: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+}
+.color-changing-block{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 12px;
+}
+.title-color-changing{
+    font-family: Montserrat, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: left;
+    width: 320px;
+    height: 35px;
+}
+.additional-text-color-changing{
+    width: 320px;
+    height: 18px;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 18px;
+    text-align: left;
+}
+#PRICE{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.color{
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: left;
+}
+.colors-picking{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    margin-top: 3px;
+}
+#hurry-up{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 24px;
+}
+.hurry-up-text{
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-left: 8px;
+    margin-top: 5px;
+    color: #F65D81;
+
+}
+.time-run-out{
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    color: #F65D81;
+    margin-left: 39px;
+    margin-top: 4px;
+}
+.payment{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 370px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.conditions-of-using{
+    width: 370px;
+    height: 428px;
+    border-radius: 30px;
+    margin-left: 10px;
+    gap: 16px;
+    background: #F7F7F7;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.shipping{
+    margin-left: 10px;
+    margin-bottom: 24px;
 }
